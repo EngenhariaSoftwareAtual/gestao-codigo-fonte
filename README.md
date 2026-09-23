@@ -233,8 +233,8 @@ Procure as linhas `user.name`, `user.email` e `pull.rebase` e confirme os valore
 
 ### Passo 2.1 — Aluno A: criar o fork
 
-1. Acesse o repositório modelo indicado pelo docente:
-   `https://github.com/<organizacao-da-disciplina>/<repositorio-modelo>`
+1. Acesse o repositório modelo :
+   `https://github.com/EngenhariaSoftwareAtual/scm-modelo`
 2. Clique em **Fork** (canto superior direito).
 3. Na tela de criação:
    - **Owner:** sua conta pessoal

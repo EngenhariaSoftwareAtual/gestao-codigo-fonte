@@ -965,16 +965,17 @@ flowchart LR
 
 ### Passo 7.1 — Aluno A: abrir o Pull Request
 
-1. No GitHub, abra o repositório. Deve aparecer um aviso sobre o push recente em `feature/secao-sobre` com o botão **Compare & pull request**. (Se não aparecer: aba **Pull requests → New pull request**.)
-2. **Confira as branches com atenção:**
+1. No GitHub, abra **o fork da dupla** (`<usuario-aluno-a>/scm-<nome-a>-<nome-b>`), não o repositório modelo do docente. Deve aparecer um aviso sobre o push recente em `feature/secao-sobre` com o botão **Compare & pull request**. (Se não aparecer: aba **Pull requests → New pull request**.)
+2. **Antes de criar o PR, confira os dois repositórios e as branches no topo da comparação:**
 
    | Campo | Valor correto |
    |---|---|
    | **base repository** | `<usuario-aluno-a>/scm-<nome-a>-<nome-b>` — **o fork da dupla** |
    | **base** | `main` |
+    | **head repository** (se aparecer) | `<usuario-aluno-a>/scm-<nome-a>-<nome-b>` — **o mesmo fork** |
    | **compare** | `feature/secao-sobre` |
 
-   > **Armadilha frequente:** em forks, o GitHub costuma sugerir o **repositório do docente** como base. Se não corrigir, o seu PR vai parar no repositório de outra pessoa. Troque o **base repository** para o fork da dupla.
+    > **Atenção:** mesmo começando pelo fork, o GitHub pode sugerir o **repositório do docente** como base. Se o nome do docente aparecer em **base repository**, troque-o pelo fork da dupla antes de continuar. O destino do PR deve ser a `main` **do fork**, não a `main` do modelo.
 
 3. **Título:** `Adiciona seção Sobre`
 4. **Descrição:**
@@ -992,7 +993,7 @@ flowchart LR
    ```
 
 5. Em **Reviewers**, escolha o Aluno B.
-6. Clique em **Create pull request**.
+6. Confira mais uma vez que **base repository** mostra o fork da dupla; só então clique em **Create pull request**. Na página do PR criado, confirme que o repositório no topo também é o fork da dupla.
 
 ### Passo 7.2 — Aluno B: revisar
 

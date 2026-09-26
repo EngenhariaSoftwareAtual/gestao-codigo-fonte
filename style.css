@@ -2,3 +2,9 @@ body {
     background-color: #f0f4f8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h1 {
+    color: #2ecc71;
+    font-size: 3rem;
+    text-align: left;
+}

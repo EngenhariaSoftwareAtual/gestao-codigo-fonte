@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    color: #2ecc71;
-    font-size: 3rem;
-    text-align: left;
+
+    color: #2ecc71; /* Cor escolhida pelo aluno B */
+    font-size: 3rem; /* Tamanho escolhido pelo aluno B */
+    text-align: center; /* Alinhamento escolhido pelo aluno A */
 }
